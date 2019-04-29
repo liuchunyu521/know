@@ -1,0 +1,16 @@
+@import '../styles/workflow';
+
+.workflow-revoke {
+    .workflow-revoke-list {
+      height: 200px;
+      overflow-y: auto;
+      .workflow-revoke-item {
+        height: 25px;
+        padding: 0;
+        &.active {
+          background: @primary-color;
+          color: #fff;
+        }
+      }
+    }
+}

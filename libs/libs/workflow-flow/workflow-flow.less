@@ -1,0 +1,20 @@
+@import '../styles/workflow';
+.workflow-graph {
+    overflow-x: auto; 
+    padding: 8px;
+    .workflow-steps {
+        //width: 1000px;
+        .workflow-step {
+            .workflow-step-finished {
+                color: @primary-color;
+                margin-right: 5px;
+            }
+
+            .workflow-step-processing  {
+                margin-right: 5px;
+                color: red;
+            }
+        }
+
+    }
+}
