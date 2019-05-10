@@ -1,0 +1,121 @@
+.workflow .ant-modal-body {
+  padding: 8px 24px;
+}
+.workflow .workflow-line {
+  padding: 8px 0px;
+}
+.workflow .workflow-line.bottom {
+  border-bottom: #ddd solid 1px;
+}
+.workflow .workflow-line .title {
+  padding-right: 15px;
+}
+.workflow .workflow-line .title.left-tag {
+  border-left: #178cff solid 3px;
+  padding-left: 5px;
+}
+.workflow .ant-modal-content {
+  width: 750px;
+}
+.workflow-approve .ant-modal-body {
+  padding: 8px 24px;
+}
+.workflow-approve .ant-modal-content {
+  width: 750px;
+}
+.workflow-approve .workflow-approve-steps-radio {
+  margin-left: 8px;
+}
+.workflow-approve .workflow-approve-tree {
+  padding: 0px 8px 0px 0px;
+  border-right: #ddd solid 1px;
+}
+.workflow-approve .workflow-approve-tree .workflow-approve-tree-search {
+  width: 100%;
+}
+.workflow-approve .workflow-approve-list {
+  padding: 0px 0px 0px 8px;
+}
+.workflow-approve .workflow-approve-list .workflow-approve-list-header {
+  text-align: right;
+  margin-bottom: 8px;
+}
+.workflow-approve .workflow-approve-list .workflow-approve-list-header .ant-input-search {
+  width: 300px;
+}
+.workflow-approve .workflow-approve-list .workflow-approve-list-table .ant-table-thead > tr > th,
+.workflow-approve .workflow-approve-list .workflow-approve-list-table .ant-table-tbody > tr > td {
+  padding: 8px 8px;
+}
+.workflow-approve .workflow-approve-select {
+  padding: 8px 0px;
+  border-bottom: #ddd solid 1px;
+}
+.workflow-approve .workflow-approve-select .workflow-approve-tags {
+  margin-left: 8px;
+}
+.workflow-approve .workflow-approve-select .workflow-approve-tags .ant-tag {
+  background-color: #e3f1ff;
+  border: #178cff solid 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.workflow-approve .workflow-approve-select-words {
+  width: 300px;
+}
+.workflow-approve .word-option {
+  position: relative;
+  width: 300px;
+}
+.workflow-approve .word-option-action {
+  position: absolute;
+  right: 0;
+}
+.workflow-remark-button {
+  width: 60%;
+}
+.workflow-remark {
+  position: relative;
+}
+.workflow-remark .workflow-remark-text {
+  width: 100%;
+  word-break: break-all;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+}
+.workflow-remark .workflow-remark-actions {
+  position: absolute;
+  color: #178cff;
+  width: 30%;
+  text-align: right;
+  right: 8px;
+}
+.workflow-remark .workflow-remark-actions .anticon {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+.workflow-graph {
+  overflow-x: auto;
+  padding: 8px;
+}
+.workflow-graph .workflow-steps .workflow-step .workflow-step-finished {
+  color: #178cff;
+  margin-right: 5px;
+}
+.workflow-graph .workflow-steps .workflow-step .workflow-step-processing {
+  margin-right: 5px;
+  color: red;
+}
+.workflow-revoke .workflow-revoke-list {
+  height: 100px;
+  overflow-y: auto;
+}
+.workflow-revoke .workflow-revoke-list .workflow-revoke-item {
+  height: 25px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.workflow-revoke .workflow-revoke-list .workflow-revoke-item.active {
+  background: #178cff;
+  color: #fff;
+}

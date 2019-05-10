@@ -1,0 +1,224 @@
+
+  
+  @primary-color: #178CFF;
+  
+   .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  
+  .ant-layout-header {
+    background: @primary-color !important;
+    color: #fff;
+    font-size: 18px;
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+  
+  .ant-table {
+    //border: #ddd solid 1px;
+  }
+  
+  .search-bar {
+    background: #ecf6fd;
+    border: 1px solid #d2eafb;
+    // margin-bottom: 5px;
+    // padding-top: 10px;
+    height: auto;
+    margin: 8px 0;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 0 !important;
+  }
+  .primary-bg {
+    background:@primary-color !important;
+    color:#fff !important;
+  }
+  
+  .panel-content {
+    background: lighten(@primary-color, 40%);
+    border-radius: 4;
+    margin-bottom: 24;
+    border: 0;
+    overflow: hidden;
+  
+  }
+  .item-container {
+    position: relative;
+    .item-add {
+      float: right;
+      right: 16px;
+      bottom: 24px;
+    }
+  
+    .item-total {
+      background: lightyellow;
+      padding: 8px;
+  
+      .number {
+        font-size: 1.5rem;
+        color: orange;
+        display: inline-block;
+      }
+    }
+    .item-content {
+       padding: 0px 0 16px 0;
+       position: relative;
+      .item-delete {
+        position: absolute;
+        right: 24px;
+        top: 8px;
+        font-size: 18px;
+      }
+      
+      
+    }
+  }
+  
+  .ant-layout {
+   // height: 100vh;
+    
+    .ant-layout-content {
+      min-height: 500px;
+    }
+  }
+  
+  .candidates-dialog {
+    width: 900px !important;
+  
+    .top-bar {
+      // margin-bottom: 8px;
+      padding: 8px 0px;
+      height: 45px;
+    }
+    .left-part{
+      
+      .left {
+          border: #ddd solid 1px;
+          height: 400px;
+      }
+    }
+    .right-part {
+   
+      .right {
+        margin-top: 45px;
+        border: #ddd solid 1px;
+        height: 400px;
+  
+        .list-item {
+          padding: 5px 8px;
+          &.active {
+            background: @primary-color;
+            color: #fff;
+          }
+        }
+      }
+  
+    }
+  
+    .middle {
+      padding: 5px;
+    }
+  
+    .icon-button {
+      padding: 2px;
+      margin-bottom: 8px;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      background: @primary-color;
+    }
+  }
+  
+  .reject-list {
+      height: 300px;
+      .reject-item {
+        height: 25px;
+        padding: 0;
+        &.active {
+          background: @primary-color;
+          color: #fff;
+        }
+      }
+  }
+  
+  .reject-footer {
+    margin-top: 8px;
+    text-align: right;
+  }
+
+  .page-header {
+    height: 45px;
+    font-size: 1.1rem;
+    .action-button {
+      display: inline-block;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    .title {
+      display: inline-block;
+    }
+  }
+
+  .page-action {
+    margin-top: 15px;
+  }
+
+  .payment-list {
+    margin-top: 8px;
+
+    table {
+      border: #ddd solid 1px;
+    }
+  }
+
+  ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); 
+} /* 滑块颜色 */
+
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+	  background-color: #F5F5F5;
+}
+
+
+
+
+
+.header {
+  .company {
+    width: 30%;
+    display: inline-block;
+  }
+  .actions {
+      width: 200px;
+      text-align: right;
+      //display: inline-block;
+      float: right;
+      cursor: pointer;
+  }
+}
+
+.markdown-body {
+  padding: 32px;
+}
+
+  
+  

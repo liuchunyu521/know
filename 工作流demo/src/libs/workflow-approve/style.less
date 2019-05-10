@@ -1,0 +1,104 @@
+
+.workflow-approve {
+    
+    .ant-modal-body {
+
+        padding: 8px 24px;
+    }
+    
+    .ant-modal-content {
+        width: 750px;
+    }
+
+    .workflow-approve-steps-radio {
+        margin-left: 8px;
+    }
+
+    .workflow-approve-tree {
+        padding: 0px 8px 0px 0px;
+        border-right: #ddd solid 1px;
+
+        .workflow-approve-tree-search {
+            width: 100%;
+        }
+    }
+    .workflow-approve-list {
+        padding: 0px 0px 0px 8px;
+        .workflow-approve-list-header {
+            
+            text-align: right;
+            margin-bottom: 8px;
+            .ant-input-search {
+                width: 300px;
+            }
+        }
+        .workflow-approve-list-table {
+            //border: #ddd solid 1px;
+            .ant-table-thead > tr > th, 
+            .ant-table-tbody > tr > td {
+                padding: 8px 8px;
+            }
+        }
+    }
+
+    .workflow-approve-select {
+        padding: 8px 0px;
+        border-bottom: #ddd solid 1px;
+        .workflow-approve-tags {
+            margin-left: 8px;
+
+            .ant-tag {
+                background-color: lighten(@primary-color, 40%);
+                border: @primary-color solid 1px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+
+    .workflow-approve-select-words {
+        width: 300px;
+    }
+
+    .word-option {
+        position: relative;
+        width: 300px;
+
+    }
+
+    .word-option-action {
+        position: absolute;
+        right: 0;
+    }
+
+   
+}
+
+ // 批语
+ .workflow-remark-button {
+    width: 60%;
+ }
+ .workflow-remark {
+    position: relative;
+    
+    .workflow-remark-text {
+        width: 100%;
+        word-break: break-all;
+        display: inline-block;
+        background: rgba(255,255,255,.1);
+    }
+    .workflow-remark-actions {
+        position: absolute;
+        color: @primary-color;
+        width: 30%;
+        text-align: right;
+        right: 8px;
+
+        .anticon  {
+            font-size: 1.2rem;
+            margin: 5px;
+        }
+    }
+
+}
