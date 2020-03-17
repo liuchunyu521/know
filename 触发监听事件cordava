@@ -13,3 +13,4 @@ window.document.addEventListener("deviceready",function(){
     //     }
     //     var body = document.getElementsByTagName('body')[0];
     //     dispatch(body, 'deviceready');
+//事件派发
