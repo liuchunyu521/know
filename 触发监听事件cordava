@@ -1,0 +1,15 @@
+window.document.addEventListener("deviceready",function(){
+            console.log(1111)
+        })
+        
+    //    function dispatch(el, type){
+    //         try{
+    //             var evt = document.createEvent('Event');
+    //             evt.initEvent(type,true,true);
+    //             el.dispatchEvent(evt);
+    //         }catch(e){
+    //             alert(e);
+    //         };
+    //     }
+    //     var body = document.getElementsByTagName('body')[0];
+    //     dispatch(body, 'deviceready');
