@@ -1,0 +1,56 @@
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0">
+
+    <title>动画效果demo</title>
+    <style>
+
+    </style>
+    <!--第一步先引用lottieJS-->
+    <script src="https://cdn.bootcss.com/bodymovin/5.6.8/lottie.js"></script>
+</head>
+<script>
+
+</script>
+
+<body>
+    <!--第二步动画的容器设置好-->
+    <div id="animation"></div>
+
+    <script>
+
+        // <!--第三步创建动画对象-->
+
+        CreateAnimation();//动画开整吧 
+
+        function CreateAnimation() {//path 需要通过参数传值；
+
+            let animation = lottie.loadAnimation({
+                container: document.getElementById('animation'), // the dom element that will contain the animation
+                renderer: 'svg', //渲染出来的是什么格式
+                loop: false,  //循环播放
+                autoplay: false, //自动播放
+                path: './data.json' // the path to the animation json
+            });
+            animation.addEventListener('data_ready', () => {//数据加载完毕
+                animation.play();
+                console.log('animation data has loaded');
+            });
+            animation.addEventListener('complete', () => {//动画播放完成、进行删除
+                animation.destroy();
+                console.log('animation complete');
+            });
+            animation.addEventListener('destroy', () => {//动画删除后进行操作 调用其它方法
+
+                console.log('animation destroy');
+            });
+        }
+
+
+    </script>
+
+</body>
+
+</html>
