@@ -15,7 +15,7 @@
     "core-js": "^2.6.5",
     "markdown-it": "^8.4.2",
     "markdown-it-vue": "^1.0.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^8.1.0",
